@@ -1,6 +1,6 @@
 <?php
 
-var_dump($_GET);
+
 
 
 ?>
@@ -15,12 +15,12 @@ var_dump($_GET);
 </head>
 
 <body>
-    <form action="" type="get">
-        <p><label for="message">Paragraph to send</label></p>
+    <form action="agent.php" type="get">
+        <p><label for="message">Frase da inviare</label></p>
         <div>
             <textarea name="message" id="message" cols="30" rows="10" placeholder="Type here your messag"></textarea>
         </div>
-        <p><label for="bword">Word to erase</label></p>
+        <p><label for="bword">Parola da censurare</label></p>
         <div>
             <input type="text" name="bword" id="bword">
         </div>
